@@ -30,3 +30,29 @@ function show(){
     console.log(functionVar); // Throws ReferenceError
     console.log(functionLet); // Throws ReferenceError
     console.log(functionConst); // Throws ReferenceError
+
+
+    let userType = "subscriber";
+let userCategory;
+
+switch (userType) {
+    case "admin":
+        userCategory = "Administrator";
+        break;
+    case "manager":
+        userCategory = "Manager";
+        break;
+    case "subscriber":
+        userCategory = "Subscriber";
+        break;
+    default:
+        userCategory = "Unknown";
+}
+
+
+console.log("User Category:", userCategory);
+
+let isAuthenticated = true;
+
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
+console.log("Authentication Status:", authenticationStatus); 
