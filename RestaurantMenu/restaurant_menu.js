@@ -1,4 +1,4 @@
-const breakfastMenu = ['Pancakes', 'Eggs Benedict', 'Oatmeal', 'Frittata'];
+const breakfastMenu = ['Pancakes - 11 euro', 'Eggs Benedict - 16 euro', 'Oatmeal', 'Frittata'];
 const mainCourseMenu = ['Steak', 'Pasta', 'Burger', 'Salmon', 'tofu steak'];
 const dessertMenu = ['Cake', 'Ice Cream', 'Pudding', 'Fruit Salad', 'ice coffee', 'sweets'];
 
